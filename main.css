@@ -1,0 +1,93 @@
+body {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: none;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.video-abertura {
+    margin: 0 auto;
+    display: block;
+}
+
+.container a {
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.container a:hover {
+    color: #ccc;
+}
+
+.container a img {
+    padding-right: 10px;
+}
+
+.nav-acessorios button {
+    color: #000;
+}
+
+.nav-acessorios .nav-link.active {
+    background-color: rgb(231, 230, 230);
+    color: #000;
+}
+
+.nav-acessorios .nav-link:hover {
+    color: #000;
+}
+
+#acessorios {
+    background-color: #ccc;
+}
+
+#contato button {
+    background-color: #000;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .video-abertura {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .video-abertura {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .carousel-item img {
+        width: 100%;
+    }
+}
